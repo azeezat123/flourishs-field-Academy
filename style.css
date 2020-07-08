@@ -85,7 +85,7 @@ font-weight: 500;
     }
     .get-started-btn {
       padding: .3em 1em;
-      margin: 0 45em 1em 1em;
+      margin: 0 15em 1em .5em;
     }
   }
 
@@ -121,6 +121,7 @@ font-weight: 500;
     margin-top: 2em;
     border: 2px solid #fff;
     color: #fff;
+    background-color: transparent;
   }
   
   #intro .btn-get-started:hover {
