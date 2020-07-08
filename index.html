@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a36227a46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+<body>
+<!------- Navigation Bar ------------>
+    <header>
+        <nav class="navbar navbar-expand-lg  fixed-top ">
+            <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/dytnzt4jf/image/upload/v1593389877/flourish_field_vjxbkp.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse other-side" id="navbarNavDropdown">
+              <ul class="navbar-nav other-side">
+                <li class="nav-item active">
+                    <a class="nav-link text-black" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Get a tutor</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-black" href="contact.html">Contact</a>
+                    </li>
+     <!---------------MODAL FORM------------>
+                      <button onclick="document.getElementById('id01').style.display='block'" class="get-started-btn text-white ">Get Started</button>
+                      <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+                          <div class="w3-center"><br>
+                            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge  w3-display-topright" title="Close Modal">&times;</span>
+                          </div>
+
+                          <h2 class="modal-head">Get Started </h2>
+                          <Form >
+                                <input type="text" id="name" class="modal-form" placeholder="First name">
+                                <input type="text" id="name" class="modal-form" placeholder="Middle name">
+                                <input type="text" id="name" class="modal-form" placeholder="Last name">
+                                <input type="email" id="email" class="modal-form" placeholder="Enter your email" required="required">
+                                <input type="date" id="DOB" class="modal-form" placeholder="date of birth">
+                                <input type="text" name="" class="modal-form" id="" placeholder="Contact address">
+                                <input type="tel" name="phone" class="modal-form" placeholder="Phone number">
+                                <label for="gender" class="genderr">Gender</label><br>
+                                <input type="radio" name="gender" ><span class="gender">Female</span> 
+                                <input type="radio" name="gender"><span class="gender">Male</span> 
+                                <input type="text" name="" class="modal-form" placeholder="Course title">
+                                <button class="submit-btn" type="submit">Register</button>
+                          </Form>
+                          <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button">Cancel</button>
+                            <span class="w3-right w3-padding w3-hide-small"> <a href="#">Sign In?</a></span>
+                          </div>
+                        </div>
+                      </div>
+                  </ul>
+             </div>
+         </nav>
+    </header>
+
+    <!------- Hero Image --------->
+    <section id="intro">
+        <div class="hero-image">  
+            <div class="hero-text">
+              <h1>Learning Today,<br>Leading Tomorrow</h1>
+              <h3>We are team of talanted designers making websites</h3>
+              <a href="courses.html" class="btn-get-started"> Get Started</a>
+            </div>
+          </div>
+        </section>
+
+<main>
+  <section class="courses">
+    <h1>Our courses</h1>
+     <hr class="line">
+       <div class="courses-grid">
+           <div class="a">
+              <div class="inner-container" style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594088905/course_1_a2fyap.png); "> </div>
+              <p>Lorem ipsum dolor sit ame <br> Lorem ipt <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span>
+          </div>
+          <div class="b">
+             <div class="inner-container" style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594075220/course_1_ecbqou.png);"> </div>   
+             <p>Lorem ipsum dolor sit ame <br> Lorem ipt <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span>
+           </div>
+           <div class="c">
+             <div class="inner-container" style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594075206/course_2_qkrddk.png);"> </div>
+             <p>Lorem ipsum dolor sit ame <br> Lorem ipt <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span> 
+           </div>
+           <div class="d">
+             <div class="inner-container" style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594075206/course_2_qkrddk.png);"> </div>
+             <p>Lorem ipsum dolor sit ame <br> Lorem ipt <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span>
+           </div>
+           <div class="e">
+            <div class="inner-container" style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594075220/course_1_ecbqou.png);"> </div>
+            <p>Lorem ipsum dolor sit ame <br> Lorem ipt <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span>
+           </div>
+           <div class="f">
+             <div class="inner-container"  style="background-image: url(https://res.cloudinary.com/dytnzt4jf/image/upload/v1594088993/course_1_dlcun9.png);"></div>
+             <p>Lorem ipsum dolor sit ame <br> Lorem ipt  <span><a href="#"> <i class="fas fa-shopping-basket"></i></a></p></span>
+    </div>
+  </section>
+
+<section class="review">
+  <h1>What our learners have to say</h1>
+  <hr class="line">
+  <div class="review-container">
+  <div class="container-1">
+    <div class="profile"> 
+    <span class="profile-container">M</span> <span class="profile-name">Murphy</span>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercittion ullamco <br>
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velitnoo <br>
+    </p>
+    <img src="ratings 5.svg" alt="">
+</div>
+  <div class="container-1 hide">
+    <div class="profile"> 
+      <span class="profile-container-1">K</span> <span class="profile-name">Kathy</span>
+      </div>
+  
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercittion ullamco <br>
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velitnoo <br>
+    </p>
+    <img src="ratings 4.svg" alt="">
+  </div>
+  <div class="container-1 hide">
+    <div class="profile">
+      <span class="profile-container">W</span> <span class="profile-name">William</span>
+      </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod <br>
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercittion ullamco <br>
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velitnoo <br>
+    </p>
+    <img src="ratings 5.svg" alt="">
+  </div>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+
+<!-- ----CONTACT FORM----- -->
+<section id="contact" class="contact">
+  <h1>Contact us</h1>
+  <hr class="line">
+  <div class="container" data-aos="fade-up">
+  <div class="row mt-5">
+    <div class="col-lg-4">
+      <div class="info">
+        <div class="address">
+          <i class="fas fa-map-marker-alt"></i>
+          <h4>Location:</h4>
+          <p>45 Kusa street, palm groove</p>
+        </div>
+
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          <h4>Email:</h4>
+          <p>flourish_field@gmail.com</p>
+        </div>
+
+        <div class="phone">
+          <i class="fas fa-phone-alt"></i>
+          <h4>Call:</h4>
+          <p>0704 671 1678</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-lg-8 mt-5 mt-lg-0">
+
+      <form class="php-email-form">
+        <div class="form-row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <div class="validate"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <div class="validate"></div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <div class="validate"></div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+</section>
+
+</main>
+<!------------ Footer Sestion -------------------->
+        <footer>
+          <!-- top section----- -->
+          <div class="footer-top">
+              <div class="footer-top-1">
+                <ul>
+                  <li><p class="bold">Flourish Field</p></li>
+                  <li><p>45 Kusa street, palm groove</p></li>
+                  <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </ul>
+          </div>
+
+          
+          <div class="footer-top-2">
+              <ul>
+                  <li><a href="#">About us</a></li>
+                 <li><a href="#">Careers</a></li>
+                  <li><a href="#">Featured courses</a></li>
+                  
+              </ul>
+          </div>
+  
+          <div class="footer-top-3">
+              <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Help and Support</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-top-4">
+              <ul>
+                <li><a href="#">Affiliate</a></li>
+                  <li><a href="#">Become and instructor</a></li>
+                  <li><a href="#">Become A Scout Partner</a></li>
+              </ul>
+          </div>
+      </div>
+              
+      <hr>
+  
+          <!-- bottom section----- -->
+          <div class="footer-bottom">
+          <p class="footer-bottom-left">2020 © Copyright All rights reserved</p>
+             <P class="footer-bottom-right">Privacy Policy</P>
+              <p class="footer-bottom-right">Terms & Conditions</p>
+          </ul>
+      </div>
+     </footer>
+    
+     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
