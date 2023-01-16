@@ -1,1 +1,1 @@
-# flourishs
+Flourish Field Academy is an organization that is invested in reaching a diverse range of learners by providing an array of learning tools including bootcamps, self-paced learning, videos, collaborative projects, competitions, one-on-one sessions etc. 
